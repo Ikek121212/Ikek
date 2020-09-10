@@ -1,0 +1,184 @@
+body{
+    background: #02075d;
+    margin: 0;
+    
+}
+h1,h2,h3,h4,p,a,label, input{
+    color:white;
+    font-family: 'Changa', sans-serif;
+}
+a{
+    font-weight: 600;;
+}
+
+input{
+    outline: none !important;
+}
+input[type="text"],input[type="password"]{
+    color:black;
+    font-weight:600;
+    font-size:16px;
+}
+#view{
+    display: flex;
+
+}
+#view > header{
+width:100px;
+background: rgba(0, 0, 0, 0.3);
+height: 100vh;
+}
+
+header > ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-top:100px;
+}
+
+header >ul > li > h1{
+text-align:center;
+}
+header > ul >li{
+    transition: all ease 0.3s;
+    border-radius: 50%;
+border-right:2px solid transparent;
+background: rgba(0, 0, 0, 0);
+height: 54px;
+width:54px;
+padding:5px;
+margin: 0 auto;
+    
+}
+header > ul >li:hover{
+    transition: all ease 0.3s;
+    border-right:2px solid black;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+
+}
+header > ul >li:active{
+    transition: all ease 0.3s;
+    border-right:2px solid black;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+header > ul >li > img{
+    width: 90%;
+    
+    margin-left:5%;
+    margin-top:5%;
+}
+#view > div{
+    width: 100%;
+}
+
+
+.register{
+    position: relative;
+   text-align:center;
+    background-color: #00002e;
+    -webkit-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    width:50%;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 500px;
+    padding:20px;
+    margin: auto auto;
+    
+
+    top:50%;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:-253.5px;
+}
+
+.register div{
+    text-align:left;
+    
+}
+.register>form >input {
+    width:70%;
+    
+    border:3px solid #111aad;
+    border-radius:5px;
+    padding:5px;
+    
+}
+#pwdr,#pwd{
+transition:all ease 0.3s;
+background:white;
+}
+
+#login{
+    position: fixed;
+    width:50%;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: #00002e;
+    -webkit-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+    top:50%;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:-184.5px;
+}
+#login > form >*{
+
+}
+#login > form{
+    text-align:center;
+    padding:20px;
+}
+#login > form >input {
+    width:70%;
+    
+    border:3px solid #111aad;
+    border-radius:5px;
+    padding:5px;
+    
+}
+#login> form > div{
+    text-align:left !important;
+    margin:10px 0;
+}
+#logsubmit > input, #regsubmit > input{
+    transition:all ease 0.3s;
+    height: 100%;
+    width: 100%;
+
+    background:#02075d;
+    border:2px solid #111aad;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+}
+#logsubmit > input:hover, #regsubmit > input:hover{
+    transition:all ease 0.3s;
+    background:#121994;
+}
+#logsubmit > input:focus, #regsubmit > input:focus{
+    outline: none;
+}
+#logsubmit > input:active , #regsubmit > input:active{
+    transition:all ease 0.3s;
+    background:#000336;
+}
+#logsubmit, #regsubmit{
+    text-align:center;
+    width:50%;
+    margin:10px auto!important;
+    margin-top:30px !important;
+}
+
+
+
+
